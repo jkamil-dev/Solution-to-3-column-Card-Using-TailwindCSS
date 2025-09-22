@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts */
+  --font-shoulders: "Big Shoulders", sans-serif;
+  --font-lexend: "Lexend Deca", sans-serif;
+
+  /* Variable Colors */
+  --color-orange: hsl(31, 77%, 52%);
+  --color-dark-cyan: hsl(184, 100%, 22%);
+  --color-darker-cyan:  hsl(179, 100%, 13%);
+  --color-font: hsla(0, 0%, 100%, 0.75);
+  --color-gray: hsl(0, 0%, 95%);
+
+}
+
+@font-face {
+  font-family: 'Big Shoulders';
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/Big_Shoulders/BigShoulders-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/Lexend_Deca/LexendDeca-VariableFont_wght.ttf");
+}
